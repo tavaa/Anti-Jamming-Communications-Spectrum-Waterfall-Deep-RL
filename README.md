@@ -123,9 +123,14 @@ run from within the notebook, using the configuration files in `configs/`.
 | Reactive   | 0.8093 | 0.8410 | 0.1585 | 84.17 | —               |
 
 <p align="center">
-  <img src="plots/transfer_heatmap.png" width="700"><br>
+  <img src="plots/heatmaps.png" width="700"><br>
   <em>Cross-domain transfer: reward as % of r*, training scenario (rows) vs. test scenario (columns).</em>
 </p>
+
+## Notes
+
+Claude Sonnet 5 and Opus 5 were used as coding assistants, debuggers, and documentation tools throughout the development process. Their use was limited to supporting software development, debugging, code review, and documentation activities. No AI-generated content was used to replace the authors' technical reasoning, experimental analysis, or scientific conclusions.
+
 
 ## Reference
 
