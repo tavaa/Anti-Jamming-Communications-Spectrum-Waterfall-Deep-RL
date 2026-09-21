@@ -1,0 +1,16 @@
+
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+torch>=2.4
+
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+matplotlib>=3.8
+seaborn>=0.13
+pyyaml>=6.0
+gymnasium>=0.29
+tqdm>=4.66
+pytest>=7.4
+jupyterlab>=4.0
+ipykernel>=6.29
+tensorboard>=2.15

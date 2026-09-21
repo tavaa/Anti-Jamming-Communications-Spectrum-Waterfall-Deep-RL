@@ -1,0 +1,4 @@
+scenario,r_star
+sweep,0.966667
+dynamic_comb,0.96
+hybrid,0.961561

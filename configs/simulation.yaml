@@ -1,0 +1,26 @@
+# Simulation configs
+
+K: 9 # number of channels
+M: 3 # jammer tones
+T: 20 # waterfall spectrum size
+burn_in: 20 # initial steps to populate observation memory
+dwell: 10 # permanence time in dynamic_comb
+rho_hybrid: 0.02 # hybrid jammer probability of switching to dynamic_comb mode
+lambda_switch: 0.2 # penalty for switching channels in the reward function
+
+seeds_train: [0, 1, 2, 3, 4] 
+seeds_test: [100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+n_steps_train: 10000
+n_eval_steps: 2000
+n_eval_steps_crossdomain: 2000
+
+learning_algorithms:
+  - "qlearning"
+  - "dqn"
+
+baselines:
+  - "fixed"
+  - "random"
+  - "reactive"
+
+weights_dir: "weights"

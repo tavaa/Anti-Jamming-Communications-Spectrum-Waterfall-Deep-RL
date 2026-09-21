@@ -1,0 +1,10 @@
+# Jammer configuration setup and parameters for the anti-jamming reinforcement learning framework.
+
+K: 9 # Number of slots
+M: 3 # Jammers tones
+dwell: 10 # dynamic_comb permanence time
+rho_hybrid: 0.02 # hybrid jammer probability of switching to dynamic_comb mode
+scenarios:
+  - "sweep"
+  - "dynamic_comb"
+  - "hybrid"

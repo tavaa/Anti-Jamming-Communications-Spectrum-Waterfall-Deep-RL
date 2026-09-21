@@ -1,0 +1,20 @@
+# Agent configuration setup and parameters for the anti-jamming reinforcement learning framework.
+
+gamma: 0.99 # discount factor 
+
+qlearning:
+  alpha: 0.1 # learning rate
+  eps_start: 1.0 # initial exploration rate
+  eps_end: 0.05 # final exploration rate
+  eps_decay: 2500 # number of steps to decay exploration rate
+
+dqn:
+  lr: 0.0005 # learning rate
+  eps_start: 1.0 # initial exploration rate
+  eps_end: 0.05 # final exploration rate
+  eps_decay: 2500 # number of steps to decay exploration rate
+  batch_size: 64 # batch size replay buffer
+  replay_capacity: 5000 # capacity of the replay buffer
+  warmup_size: 200 # number of steps to populate the replay buffer before training
+  target_sync_steps: 100 # number of steps to synchronize the target network with the online network
+  fc_hidden: 128 # number of hidden units in the fully connected layer of the DQN network
